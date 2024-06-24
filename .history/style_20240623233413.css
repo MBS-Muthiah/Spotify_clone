@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+
+body{
+    background-color:antiquewhite;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+}
+
+nav ul{
+    display:flex;
+    align-items:center;
+    list-style-type:none;
+    height: 65px;
+    background-color:black;
+    color:white;
+}
+
+.brand img{
+    width:50px;
+}
